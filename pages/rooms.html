@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>客室</title>
+    <link rel="stylesheet" href="../styles/reset.min.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/rooms.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP" rel="stylesheet">
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="container">
+            <!-- ロゴ -->
+            <div class="header__logo">
+                <a class="logo" href="../index.html">
+                    旅館ロゴ
+                </a>
+            </div>
+            <!-- ナビゲーションバー -->
+            <nav class="header__nav">
+                <ul class="nav__wrapper">
+                    <li class="nav__item"><a href="../index.html">ホーム</a></li>
+                    <li class="nav__item"><a href="rooms.html">客室</a></li>
+                    <li class="nav__item"><a href="hotspring.html">温泉</a></li>
+                    <li class="nav__item"><a href="foods.html">お料理</a></li>
+                    <li class="nav__item"><a href="">館内案内</a></li>
+                    <li class="nav__item"><a href="access.html">アクセス</a></li>
+                    <li class="nav__item"><a href="">Q&A</a></li>
+                    <li class=""><a href="#!">|</a></li>
+                    <li class="nav__item"><a href="">JP▽</a></li>
+                    <li class="header__contact"><a href="contact.html">お問い合わせ</a></li>
+                    <li class="header__reserve"><a href="reserve.html">ご宿泊予約</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="rooms">
+        <div class="page__title">
+            <h1>客室</h1>
+        </div>
+        <div class="rooms__about">
+            <p>
+                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル
+            </p>
+        </div>
+        <hr class="foods__line">
+        <!-- 客室一覧欄 -->
+        <!-- サンプルルームA -->
+        <div class="room__box">
+            <div class="room__slider__list">
+                <div class="room__slider__item">
+                    <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="room__slider__tx">
+                <div class="room__slider__txandbut">
+                    <h2>サンプルルームA</h2>
+                    <p class="room__modal__open" id="modalOpen">詳しく見る</p>
+                </div>
+                <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+            </div>
+        </div>
+        <!-- サンプルルームAモーダル -->
+        <div id="easyModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modalClose">×</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body__slider">
+                        <div class="modal-body__slider__item">
+                            <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body__text">
+                        <div class="modal-body__text__a">
+                            <h2 class="modal-body__text__title">サンプルルームA</h2>
+                            <p class="modal-body__text__title__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                            <p class="modal-body__text__setubi">＜設備＞</p>
+                            <p class="modal-body__text__setubi__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                        </div>
+                        <div class="modal-body__priceandbutton">
+                            <p class="modal-body__price">¥100,000<span>(税込)</span></p>
+                            <button class="modal-body__button">
+                                <p>予約する</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- サンプルルームB -->
+        <div class="room__box rb2">
+            <div class="room__slider__list">
+                <div class="room__slider__item">
+                    <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="room__slider__tx">
+                <div class="room__slider__txandbut">
+                    <h2>サンプルルームB</h2>
+                    <p class="room__modal__open" id="modalOpenB">詳しく見る</p>
+                </div>
+                <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+            </div>
+        </div>
+        <!-- サンプルルームBモーダル -->
+        <div id="easyModalB" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modalCloseB">×</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body__slider">
+                        <div class="modal-body__slider__item">
+                            <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body__text">
+                        <div class="modal-body__text__a">
+                            <h2 class="modal-body__text__title">サンプルルームA</h2>
+                            <p class="modal-body__text__title__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                            <p class="modal-body__text__setubi">＜設備＞</p>
+                            <p class="modal-body__text__setubi__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                        </div>
+                        <div class="modal-body__priceandbutton">
+                            <p class="modal-body__price">¥100,000<span>(税込)</span></p>
+                            <button class="modal-body__button">
+                                <p>予約する</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- サンプルルームC -->
+        <div class="room__box rb3">
+            <div class="room__slider__list">
+                <div class="room__slider__item">
+                    <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="room__slider__tx">
+                <div class="room__slider__txandbut">
+                    <h2>サンプルルームC</h2>
+                    <p class="room__modal__open" id="modalOpenC">詳しく見る</p>
+                </div>
+                <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+            </div>
+        </div>
+        <!-- サンプルルームCモーダル -->
+        <div id="easyModalC" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modalCloseC">×</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body__slider">
+                        <div class="modal-body__slider__item">
+                            <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body__text">
+                        <div class="modal-body__text__a">
+                            <h2 class="modal-body__text__title">サンプルルームA</h2>
+                            <p class="modal-body__text__title__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                            <p class="modal-body__text__setubi">＜設備＞</p>
+                            <p class="modal-body__text__setubi__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                        </div>
+                        <div class="modal-body__priceandbutton">
+                            <p class="modal-body__price">¥100,000<span>(税込)</span></p>
+                            <button class="modal-body__button">
+                                <p>予約する</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- サンプルルームD -->
+        <div class="room__box rb4">
+            <div class="room__slider__list">
+                <div class="room__slider__item">
+                    <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                </div>
+                <div class="room__slider__item">
+                    <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="room__slider__tx">
+                <div class="room__slider__txandbut">
+                    <h2>サンプルルームD</h2>
+                    <p class="room__modal__open" id="modalOpenD">詳しく見る</p>
+                </div>
+                <p>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプル</p>
+            </div>
+        </div>
+        <!-- サンプルルームDモーダル -->
+        <div id="easyModalD" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="modalCloseD">×</span>
+                </div>
+                <div class="modal-body">
+                    <div class="modal-body__slider">
+                        <div class="modal-body__slider__item">
+                            <img src="../images/vojtech-bruzek-Yrxr3bsPdS0-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/huum-K65M3GbRYq8-unsplash.jpg" alt="">
+                        </div>
+                        <div class="modal-body__slider__item">
+                            <img src="../images/elevate-T4tW6C6JNK8-unsplash.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body__text">
+                        <div class="modal-body__text__a">
+                            <h2 class="modal-body__text__title">サンプルルームA</h2>
+                            <p class="modal-body__text__title__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                            <p class="modal-body__text__setubi">＜設備＞</p>
+                            <p class="modal-body__text__setubi__p">
+                                サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト。
+                            </p>
+                        </div>
+                        <div class="modal-body__priceandbutton">
+                            <p class="modal-body__price">¥100,000<span>(税込)</span></p>
+                            <button class="modal-body__button">
+                                <p>予約する</p>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <p class="footer__titile">SampleTextHotel</p>
+            <p class="footer__sub1">0000-00-0000</p>
+            <p class="footer__sub2">サンプルテキストサンプルテキストサンプルテキスト（住所）</p>
+        </div>
+        <div class="footer__list">
+            <ul class="footer__nav__wrapper">
+                <li class="footer__nav__item"><a href="#">客室</a></li>
+                <li class="footer__nav__item"><a href="#">温泉</a></li>
+                <li class="footer__nav__item"><a href="#">お料理</a></li>
+                <li class="footer__nav__item"><a href="#">館内案内</a></li>
+                <li class="footer__nav__item"><a href="#">周辺情報</a></li>
+                <li class="footer__nav__item"><a href="#">アクセス</a></li>
+                <li class="footer__nav__item"><a href="#">よくあるご質問</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>©︎2023 サンプルテキストサンプルテキスト</p>
+        </div>
+    </div>
+    <script src="../jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+    <script src="../js/rooms.js"></script>
+</body>
+
+</html>

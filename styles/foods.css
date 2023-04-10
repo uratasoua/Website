@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+  background: #F4F2EB;
+}
+
+.foods {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.foods__about {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+}

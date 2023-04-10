@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+body {
+  background: #F4F2EB;
+}
+
+.access {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.access__map__sample {
+  width: 1100px;
+  height: 400px;
+  margin-bottom: 80px;
+}
+
+.access__map__sample iframe{
+  width: 1100px;
+}
+
+.access__map__detail {
+  width: 500px;
+  margin: 0 30% 160px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.access__map__detail__hotel {
+  display: flex;
+  align-items: center;
+}
+
+.access__map__detail__logo {
+  width: 120px;
+  height: 120px;
+  background-color: gray;
+  margin-right: 16px;
+}
+
+.access__map__detail__hotelname {
+  text-align: center;
+}
+
+.access__map__detail__text {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.access__map__link {
+  color: rgb(52, 52, 210);
+  text-decoration: underline;
+}
+
+.access__map__link:hover {
+  filter: brightness(50%);
+}
+
+.access__line {
+  margin-bottom: 200px;
+}
+
+.access__box {
+  margin-bottom: 200px;
+}
+
+.access__box:nth-child(2) {
+  margin-bottom: 240px;
+}
+
+.access__box__title {
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+
+/* 自動車でのアクセス方法 */
+.access__box__accordion {
+  list-style: none;
+  width: 70%;
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+.access__box__accordion li {
+  border-bottom: 1px solid gray;
+  margin: 10px 0;
+}
+
+.access__box__accordion li:first-child {
+  border-top: 1px solid gray;
+}
+
+.access__box__accordion__title {
+  position: relative;
+  cursor: pointer;
+  padding: 3% 3% 3% 50px;
+  transition: all.5s ease;
+}
+
+/*アイコンの＋と×*/
+.access__box__accordion__title::before,
+.access__box__accordion__title::after {
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 2px;
+  background-color: #333;
+}
+
+.access__box__accordion__title::before {
+  top: 48%;
+  left: 15px;
+  transform: rotate(0deg);
+}
+
+.access__box__accordion__title::after {
+  top: 48%;
+  left: 15px;
+  transform: rotate(90deg);
+}
+
+/*　closeというクラスがついたら形状変化　*/
+.access__box__accordion__title.close::before {
+  transform: rotate(45deg);
+}
+
+.access__box__accordion__title.close::after {
+  transform: rotate(-45deg);
+}
+
+/*アコーディオンで現れるエリア*/
+.access__box__accordion__box {
+  display: none;
+  /*はじめは非表示*/
+  background: #f3f3f3;
+  margin: 0 3% 3% 3%;
+  padding: 3%;
+}
+
