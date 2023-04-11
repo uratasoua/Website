@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
           <li class="nav__item"><a href="foods.html">お料理</a></li>
           <li class="nav__item"><a href="">館内案内</a></li>
           <li class="nav__item"><a href="access.html">アクセス</a></li>
-          <li class="nav__item"><a href="">Q&A</a></li>
+          <li class="nav__item"><a href="">FAQ</a></li>
           <li class=""><a href="#!">|</a></li>
           <li class="nav__item"><a href="">JP▽</a></li>
           <li class="header__contact"><a href="">お問い合わせ</a></li>
